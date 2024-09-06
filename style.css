@@ -8,7 +8,7 @@
 
 .container{
   width: 100%;
-  min-height: 100vh; /*(viewport height - vh)*/
+  min-height: 100vh; 
   background: linear-gradient(135deg, #1cbea9, #085f25);
   padding: 10px;
 }
@@ -64,12 +64,12 @@ button{
 }
 
 ul li{
-  list-style: none; /*list-style: none;: Bu CSS kuralı, liste elemanlarının (genellikle madde işaretleri veya numaraları) stilini kaldırır. Sırasız (<ul>) veya sıralı (<ol>) listeler üzerinde kullanılabilir ve liste öğelerinin varsayılan işaretlerini (madde işareti veya numara) gizler.*/
+  list-style: none; 
   font-size: 17px;
   padding: 12px 8px 12px 50px;
-  user-select: none;/*user-select: none;: Bu CSS kuralı, kullanıcıların metin seçimini engeller. Yani, bu kurala sahip bir element üzerindeki metinler kullanıcı tarafından seçilemez ve kopyalanamaz. Özellikle metin seçiminden kaçınılmak istenen durumlarda kullanılır.*/
+  user-select: none;
 
-  /*Bu iki kural genellikle liste öğelerinin varsayılan işaretlerinin kaldırılması ve metin seçimini engellemek için kullanılır.*/
+ 
   cursor: pointer;
   position: relative;
 }
@@ -93,7 +93,7 @@ ul li.checked{
 }
 
 ul li.checked::before{ 
-background-image: url(images/checked.png);  /* ul li.checked::before: Bu seçici, ul içinde yer alan li öğelerinin checked sınıfına sahip olanlarını hedef alır. ::before pseudo-elementi, bu li öğesinin içeriğinin öncesine eklenen bir stil parçasıdır. */
+background-image: url(images/checked.png); 
 }
 
 ul li span{
